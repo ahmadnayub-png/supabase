@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "type": "module",
   "main": "./index.tsx",
+  "exports": {
+	  ".": "./index.tsx",
+	  "./constants": "./constants/index.ts",
+	  "./enabled-features": "./enabled-features/index.ts",
+	  "./hooks": "./hooks/index.ts"
+  },
   "types": "./index.tsx",
   "license": "MIT",
   "scripts": {
